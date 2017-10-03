@@ -1,1 +1,1 @@
-# PFG
+A simple website project for learning and improvemente skill purpouses
