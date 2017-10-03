@@ -1,1 +1,1 @@
-A simple website project for learning and improvemente skill purpouses
+A simple website project for learning and improvement skill purpouses
