@@ -10,6 +10,50 @@ Version 0.0
 	font-family: 'Open Sans', sans-serif;
 }
 
+
+/*CONTENT-LOGO*/
+.content-logo{
+	width: 100%;
+	background: red;
+}
+/*////////////////////////////////////////////////*/
+
+/*CONTENT-SESSION*/
+
+.content-session{
+	/*-webkit-column-count:2;*/
+	width: 100%;
+	height: 50px;
+	/*text-align: center;*/
+	/*padding: 20px;*/
+}
+
+
+.start{
+	padding-top: 1%;
+	padding-bottom:0;
+	text-align: center;
+	width: 50%;
+	float: right;
+	display: inline;
+}
+.reg{
+	padding-top: 1%;
+	padding-bottom:0;
+	text-align: center;
+	width: 50%;
+}
+
+/*/////////////////////////////////////////////////////*/
+
+
+/*CONTENT-MENU*/
+
+.content-menu{
+	width: 100%;
+	background: #121212;
+}
+
 .content-burguer{
 	width: 25%;
 	float: right;
@@ -38,10 +82,6 @@ Version 0.0
 	cursor: pointer;
 }
 
-header{
-	background: #121212;
-}
-
 header nav ul{
 	display: none;
 	color: #fff;
@@ -62,3 +102,6 @@ header nav ul.show{
 	background: white;
 	display: block;
 }
+
+
+

@@ -9,18 +9,6 @@
 </head>
 <body>
 	<header>
-		<div class="content-logo">
-			<a href=""><img src="" alt=""></a>
-		</div>
-		<div class="content-session">
-			<div class="start">
-				<p>Inicia sesion</p>
-			</div>
-			<div class="reg">
-				<p>Registrate</p>
-			</div>
-			
-		</div>
 		<div class="content-menu">
 			<nav>
 				<div class="content-profile">
@@ -29,7 +17,7 @@
 				<div class="contet-burguer">
 					<a class="burguer"><img src="img/menu-white.png" class="img-menu"></a>
 				</div>
-					<ul class="menu">
+					<ul>
 						<li><a href="">Inicio</a></li>
 						<li><a href="">Accion</a></li>
 						<li><a href="">Salir</a></li>
@@ -38,17 +26,3 @@
 			</nav>
 		</div>
 	</header>
-
-	<div class="content-section">
-		<a href="#"></a>
-	</div>
-
-
-
-	<footer>
-		
-	</footer>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/functions.js"></script>
-</body>
-</html>
