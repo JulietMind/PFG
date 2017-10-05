@@ -1,8 +1,14 @@
+// $(document).ready(function(){
+
+// 	$(".img-menu").on("click", function(){
+
+// 		$("content-menu").toggleClass("show");
+// 	});
+
+// });
+
 $(document).ready(function(){
-
-	$(".img-menu").on("click", function(){
-
-		$("header nav ol").toggleClass("show");
-	});
-
-});
+	$('burguer').on('click',function(){
+		$('header nav ol').toggleClass('show');
+	})
+})
