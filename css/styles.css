@@ -10,8 +10,31 @@ Version 0.0
 	font-family: 'Open Sans', sans-serif;
 }
 
+.content-burguer{
+	width: 25%;
+	float: right;
+}
+
 .img-menu{
 	padding: 10px;
+	cursor: pointer;
+}
+
+.img-menu:hover{
+	transform: translateY(3px);
+	transition: all 300ms;
+	background: rgba(0,0,0,0.1);
+}
+
+.content-profile{
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+
+.img-profile{
+	padding: 10px;
+	margin-right: 30px;
 	cursor: pointer;
 }
 
@@ -21,8 +44,21 @@ header{
 
 header nav ul{
 	display: none;
+	color: #fff;
+	padding: 10px;
+}
+
+header nav ul li{
+	border-bottom: 0.5px solid white;
+	cursor: pointer;
+}
+
+header nav ul li a{
+	/*color: white;*/
+	text-decoration: none;
 }
 
 header nav ul.show{
+	background: white;
 	display: block;
 }
